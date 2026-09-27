@@ -1,0 +1,1702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industrial Pipes & Fittings - Quality Products, Delivered When You Need Them</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background-color: #ffffff;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 32px;
+        }
+
+        /* ===== HERO SECTION ===== */
+        .hero {
+            padding: 80px 32px;
+            background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
+        }
+
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        .hero-left h1 {
+            font-size: 52px;
+            font-weight: 700;
+            line-height: 1.2;
+            margin: 24px 0 32px 0;
+            color: #000;
+        }
+
+        .hero-left .subtitle {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 24px;
+        }
+
+        .hero-left .description {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 32px;
+            line-height: 1.6;
+        }
+
+        .hero-ctas {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            background-color: #2563eb;
+            color: white;
+            padding: 12px 32px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .btn-primary:hover {
+            background-color: #1d4ed8;
+        }
+
+        .btn-secondary {
+            background-color: #f0f0f0;
+            color: #000;
+            padding: 12px 32px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .btn-secondary:hover {
+            background-color: #e5e5e5;
+            border-color: #999;
+        }
+
+        .hero-features {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-top: 24px;
+            font-size: 14px;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: #555;
+        }
+
+        .feature-icon {
+            width: 20px;
+            height: 20px;
+            background-color: #2563eb;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .hero-right {
+            background-color: #e8e8e8;
+            border-radius: 12px;
+            aspect-ratio: 4/3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: #999;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-right::after {
+            content: 'Industrial pipes & fittings image';
+            font-size: 16px;
+            color: #aaa;
+        }
+
+        /* ===== TRUST SECTION ===== */
+        .trust-section {
+            padding: 80px 32px;
+            background-color: #fafafa;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-label {
+            font-size: 13px;
+            font-weight: 600;
+            color: #2563eb;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .section-title {
+            font-size: 42px;
+            font-weight: 700;
+            margin: 12px 0;
+            color: #000;
+        }
+
+        .section-subtitle {
+            font-size: 16px;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .trust-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        .trust-card {
+            background: white;
+            padding: 32px 24px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .trust-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+        }
+
+        .trust-card-icon {
+            width: 56px;
+            height: 56px;
+            background-color: #2563eb;
+            border-radius: 8px;
+            margin: 0 auto 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        .trust-card h3 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #000;
+        }
+
+        .trust-card p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* ===== BENEFITS SECTION ===== */
+        .benefits-section {
+            padding: 80px 32px;
+            background-color: #ffffff;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        .benefit-card {
+            background: white;
+            padding: 32px 24px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+        }
+
+        .benefit-card:hover {
+            box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+        }
+
+        .benefit-card-icon {
+            width: 56px;
+            height: 56px;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #2563eb;
+            font-size: 28px;
+        }
+
+        .benefit-card h3 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: #000;
+        }
+
+        .benefit-card p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .benefit-link {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #2563eb;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .benefit-link:hover {
+            text-decoration: underline;
+        }
+
+        /* ===== PRODUCT CATEGORIES SECTION ===== */
+        .categories-section {
+            padding: 80px 32px;
+            background-color: #fafafa;
+        }
+
+        .categories-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-bottom: 60px;
+            max-width: 1280px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .categories-header-text h2 {
+            font-size: 42px;
+            font-weight: 700;
+            margin: 12px 0;
+            color: #000;
+        }
+
+        .view-all-link {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            background: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            border: 1px solid #e5e5e5;
+        }
+
+        .view-all-link:hover {
+            background-color: #f5f5f5;
+        }
+
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        .category-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+        }
+
+        .category-card:hover {
+            box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+            transform: translateY(-4px);
+        }
+
+        .category-image {
+            width: 100%;
+            aspect-ratio: 16/9;
+            background-color: #e8e8e8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 14px;
+            position: relative;
+        }
+
+        .category-badge {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            background-color: rgba(255,255,255,0.9);
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+            color: #2563eb;
+        }
+
+        .category-content {
+            padding: 24px;
+        }
+
+        .category-card h3 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #000;
+        }
+
+        .category-card p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 16px;
+        }
+
+        .category-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+
+        .tag {
+            background-color: #f0f0f0;
+            color: #555;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .category-link {
+            display: block;
+            text-align: center;
+            background-color: #f0f0f0;
+            color: #2563eb;
+            padding: 12px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+
+        .category-link:hover {
+            background-color: #e5e5e5;
+        }
+
+        /* ===== FORM SECTION ===== */
+        .form-section {
+            padding: 80px 32px;
+            background-color: #ffffff;
+        }
+
+        .form-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 60px;
+            align-items: flex-start;
+        }
+
+        .form-left h2 {
+            font-size: 42px;
+            font-weight: 700;
+            margin: 24px 0;
+            color: #000;
+        }
+
+        .form-left p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 24px;
+        }
+
+        .guarantees {
+            margin-top: 40px;
+        }
+
+        .guarantee-item {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+
+        .guarantee-icon {
+            width: 24px;
+            height: 24px;
+            background-color: #2563eb;
+            border-radius: 50%;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            margin-top: 2px;
+        }
+
+        .guarantee-text h4 {
+            font-size: 14px;
+            font-weight: 600;
+            color: #000;
+            margin-bottom: 4px;
+        }
+
+        .guarantee-text p {
+            font-size: 13px;
+            color: #666;
+            margin: 0;
+        }
+
+        .direct-inquiry {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 32px;
+        }
+
+        .direct-inquiry p {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 12px;
+        }
+
+        .inquiry-contacts {
+            display: flex;
+            gap: 24px;
+            font-size: 14px;
+            flex-wrap: wrap;
+        }
+
+        .inquiry-contact {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #555;
+        }
+
+        .inquiry-contact strong {
+            color: #000;
+        }
+
+        /* ===== FORM STYLING ===== */
+        .form-right {
+            background: white;
+            border-radius: 12px;
+            padding: 32px;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.1);
+        }
+
+        .form-group {
+            margin-bottom: 24px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .form-row.full {
+            grid-template-columns: 1fr;
+        }
+
+        label {
+            display: block;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #000;
+        }
+
+        .required {
+            color: #d32f2f;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+            font-family: inherit;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="tel"]:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #2563eb;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        input::placeholder,
+        textarea::placeholder {
+            color: #999;
+        }
+
+        .submit-row {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            margin-top: 32px;
+        }
+
+        .btn-submit {
+            background-color: #2563eb;
+            color: white;
+            padding: 12px 32px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: background-color 0.3s;
+        }
+
+        .btn-submit:hover {
+            background-color: #1d4ed8;
+        }
+
+        .btn-submit:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        .form-message {
+            font-size: 14px;
+            margin-left: 16px;
+            display: none;
+        }
+
+        .form-message.success {
+            color: #22c55e;
+            display: block;
+        }
+
+        .form-message.error {
+            color: #d32f2f;
+            display: block;
+        }
+
+        /* ===== ADVANCE PAYMENT SECTION ===== */
+        .advance-payment-section {
+            padding: 80px 32px;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: white;
+        }
+
+        .advance-payment-container {
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        .advance-payment-section h2 {
+            font-size: 42px;
+            font-weight: 700;
+            margin: 24px 0;
+            text-align: center;
+        }
+
+        .advance-payment-section > .section-subtitle {
+            color: #ddd;
+            text-align: center;
+        }
+
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 32px;
+            margin: 60px 0;
+            position: relative;
+        }
+
+        .steps-grid::before {
+            content: '';
+            position: absolute;
+            top: 60px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background-color: rgba(255,255,255,0.2);
+            z-index: 0;
+        }
+
+        .step {
+            position: relative;
+            z-index: 1;
+        }
+
+        .step-number {
+            width: 56px;
+            height: 56px;
+            background-color: #2563eb;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .step h3 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: white;
+        }
+
+        .step p {
+            font-size: 14px;
+            color: #ddd;
+            line-height: 1.6;
+        }
+
+        .payment-cta-card {
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            padding: 32px;
+            border-radius: 12px;
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .payment-cta-text h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: white;
+        }
+
+        .payment-cta-text p {
+            font-size: 14px;
+            color: #ddd;
+        }
+
+        .btn-payment {
+            background-color: #2563eb;
+            color: white;
+            padding: 12px 32px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: background-color 0.3s;
+            white-space: nowrap;
+        }
+
+        .btn-payment:hover {
+            background-color: #1d4ed8;
+        }
+
+        /* ===== TESTIMONIALS SECTION ===== */
+        .testimonials-section {
+            padding: 80px 32px;
+            background-color: #fafafa;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        .testimonial-card {
+            background: white;
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .stars {
+            display: flex;
+            gap: 4px;
+            margin-bottom: 16px;
+        }
+
+        .star {
+            color: #fbbf24;
+            font-size: 16px;
+        }
+
+        .testimonial-card h4 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: #000;
+            line-height: 1.5;
+        }
+
+        .testimonial-card p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .testimonial-author {
+            display: flex;
+            gap: 12px;
+        }
+
+        .author-avatar {
+            width: 40px;
+            height: 40px;
+            background-color: #e5e5e5;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            color: #666;
+        }
+
+        .author-info h5 {
+            font-size: 14px;
+            font-weight: 600;
+            color: #000;
+            margin-bottom: 2px;
+        }
+
+        .author-info p {
+            font-size: 12px;
+            color: #999;
+            margin: 0;
+        }
+
+        /* ===== FAQ SECTION ===== */
+        .faq-section {
+            padding: 80px 32px;
+            background-color: #ffffff;
+        }
+
+        .faq-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .faq-list {
+            margin-top: 40px;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .faq-question {
+            background: none;
+            border: none;
+            width: 100%;
+            padding: 20px 0;
+            text-align: left;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #000;
+            transition: color 0.3s;
+        }
+
+        .faq-question:hover {
+            color: #2563eb;
+        }
+
+        .faq-toggle {
+            font-size: 16px;
+            color: #999;
+            transition: transform 0.3s;
+        }
+
+        .faq-item.active .faq-toggle {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            color: #666;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+            margin-bottom: 20px;
+        }
+
+        /* ===== FINAL CTA SECTION ===== */
+        .final-cta-section {
+            padding: 80px 32px;
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            color: white;
+            text-align: center;
+        }
+
+        .final-cta-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .final-cta-section h2 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 24px;
+            line-height: 1.2;
+        }
+
+        .final-cta-section p {
+            font-size: 16px;
+            color: rgba(255,255,255,0.9);
+            margin-bottom: 32px;
+            line-height: 1.6;
+        }
+
+        .final-cta-buttons {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-white {
+            background-color: white;
+            color: #2563eb;
+            padding: 12px 32px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .btn-white:hover {
+            background-color: #f0f0f0;
+        }
+
+        /* ===== RESPONSIVE DESIGN ===== */
+        @media (max-width: 768px) {
+            .hero-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .hero-left h1 {
+                font-size: 36px;
+            }
+
+            .hero-features {
+                grid-template-columns: 1fr;
+            }
+
+            .trust-grid,
+            .benefits-grid,
+            .categories-grid,
+            .testimonials-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .steps-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .steps-grid::before {
+                display: none;
+            }
+
+            .form-container {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .payment-cta-card {
+                grid-template-columns: 1fr;
+            }
+
+            .section-title {
+                font-size: 32px;
+            }
+
+            .final-cta-section h2 {
+                font-size: 32px;
+            }
+
+            .categories-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 16px;
+            }
+
+            .hero {
+                padding: 40px 16px;
+            }
+
+            .hero-left h1 {
+                font-size: 28px;
+            }
+
+            .hero-left .description {
+                font-size: 14px;
+            }
+
+            .hero-ctas {
+                flex-direction: column;
+            }
+
+            .btn-primary,
+            .btn-secondary {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .trust-grid,
+            .benefits-grid,
+            .categories-grid,
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .steps-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .section-title {
+                font-size: 24px;
+            }
+
+            .final-cta-section h2 {
+                font-size: 24px;
+            }
+
+            .final-cta-buttons {
+                flex-direction: column;
+            }
+
+            .btn-white {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .inquiry-contacts {
+                flex-direction: column;
+                gap: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-left">
+                <div style="background-color: #2563eb; color: white; padding: 8px 16px; border-radius: 6px; display: inline-block; font-size: 12px; font-weight: 600; margin-bottom: 16px;">NEW INVENTORY AVAILABLE</div>
+                <h1>Quality Pipes & Fittings, Delivered When You Need Them</h1>
+                <p class="subtitle">Industrial-grade seamless carbon steel, stainless 316, PVC, and galvanized structural lines from trusted manufacturers.</p>
+                <p class="description">From fabrication to delivery, we handle every detail of your order with precision. Get exactly what you need, when you need it.</p>
+                <div class="hero-ctas">
+                    <button class="btn-primary">Browse Catalog →</button>
+                    <button class="btn-secondary">Request a Quote →</button>
+                </div>
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <div class="feature-icon"></div>
+                        Free Advanced Audit
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"></div>
+                        24/7 Support
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"></div>
+                        Fast Delivery
+                    </div>
+                </div>
+            </div>
+            <div class="hero-right"></div>
+        </div>
+    </section>
+
+    <!-- ===== TRUST SECTION ===== -->
+    <section class="trust-section">
+        <div class="section-header">
+            <p class="section-label">Why Choose Us</p>
+            <h2 class="section-title">Trusted by Industry Leaders</h2>
+            <p class="section-subtitle">Over a decade of reliable service delivering to construction, manufacturing, and utilities sectors.</p>
+        </div>
+        <div class="trust-grid">
+            <div class="trust-card">
+                <div class="trust-card-icon">50K+</div>
+                <h3>Orders Fulfilled</h3>
+                <p>Thousands of projects completed with zero compromise on quality or timeline.</p>
+            </div>
+            <div class="trust-card">
+                <div class="trust-card-icon">98%</div>
+                <h3>On-Time Delivery</h3>
+                <p>Consistent, predictable shipping schedules that keep your projects on track.</p>
+            </div>
+            <div class="trust-card">
+                <div class="trust-card-icon">24/7</div>
+                <h3>Expert Support</h3>
+                <p>Our mechanical piping team is always ready to help with sizing, specs, and logistics.</p>
+            </div>
+            <div class="trust-card">
+                <div class="trust-card-icon">ISO</div>
+                <h3>Certified Quality</h3>
+                <p>All products come with mill test certificates and full traceability documentation.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== BENEFITS SECTION ===== -->
+    <section class="benefits-section">
+        <div class="section-header">
+            <p class="section-label">OUR ADVANTAGES</p>
+            <h2 class="section-title">What We Offer</h2>
+            <p class="section-subtitle">Everything you need for seamless procurement and project execution.</p>
+        </div>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="benefit-card-icon">✓</div>
+                <h3>Quality Products</h3>
+                <p>Carefully selected pipes and fittings designed to meet the rigorous needs of commercial plumbing, chemical transport, and civil infrastructure.</p>
+                <a href="#" class="benefit-link">Learn more →</a>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-card-icon">✓</div>
+                <h3>Easy Ordering</h3>
+                <p>Browse products, choose the required quantity, configure dimensional schedules, and place your order without unnecessary complications.</p>
+                <a href="#" class="benefit-link">Learn more →</a>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-card-icon">✓</div>
+                <h3>Reliable Service</h3>
+                <p>From product selection to bill-of-materials takeoff, our mechanical piping team is here to make your purchasing experience seamless and accurate.</p>
+                <a href="#" class="benefit-link">Learn more →</a>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-card-icon">✓</div>
+                <h3>Timely Delivery</h3>
+                <p>We work to process and deliver your orders efficiently, with scheduled flatbed and pallet dispatch helping you keep your project timeline moving.</p>
+                <a href="#" class="benefit-link">Learn more →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PRODUCT CATEGORIES SECTION ===== -->
+    <section class="categories-section">
+        <div class="categories-header">
+            <div class="categories-header-text">
+                <p class="section-label">INVENTORY</p>
+                <h2 class="section-title">Product Categories</h2>
+                <p class="section-subtitle">A complete range of industrial piping products available for immediate order.</p>
+            </div>
+            <a href="#" class="view-all-link">View All Products →</a>
+        </div>
+        <div class="categories-grid">
+            <div class="category-card">
+                <div class="category-image">
+                    <span class="category-badge">IN STOCK</span>
+                    Product Image
+                </div>
+                <div class="category-content">
+                    <h3>Pipes</h3>
+                    <p>Seamless Carbon Steel, Stainless 316, Heavy Schedule PVC, and Galvanized Structural lines.</p>
+                    <div class="category-tags">
+                        <span class="tag">Carbon Steel</span>
+                        <span class="tag">Stainless 316</span>
+                        <span class="tag">PVC</span>
+                    </div>
+                    <a href="#" class="category-link">View Pipes →</a>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-image">
+                    <span class="category-badge">IN STOCK</span>
+                    Product Image
+                </div>
+                <div class="category-content">
+                    <h3>Elbow Fittings</h3>
+                    <p>90-Degree, 45-Degree, Long Radius, Short Radius, and Forged Street Elbow configurations.</p>
+                    <div class="category-tags">
+                        <span class="tag">90° & 45°</span>
+                        <span class="tag">Long Radius</span>
+                        <span class="tag">Forged</span>
+                    </div>
+                    <a href="#" class="category-link">View Elbows →</a>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-image">
+                    <span class="category-badge">IN STOCK</span>
+                    Product Image
+                </div>
+                <div class="category-content">
+                    <h3>Tee Fittings</h3>
+                    <p>Equal Tees, Reducing Run Tees, Bullhead, and Sanitary Branch connection fittings.</p>
+                    <div class="category-tags">
+                        <span class="tag">Equal Tees</span>
+                        <span class="tag">Reducing</span>
+                        <span class="tag">Sanitary</span>
+                    </div>
+                    <a href="#" class="category-link">View Tees →</a>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-image">
+                    <span class="category-badge">IN STOCK</span>
+                    Product Image
+                </div>
+                <div class="category-content">
+                    <h3>Couplings</h3>
+                    <p>Full Couplings, Half Couplings, Quick-Disconnect, and Threaded Steel adapter sleeves.</p>
+                    <div class="category-tags">
+                        <span class="tag">Full & Half</span>
+                        <span class="tag">Quick Connect</span>
+                        <span class="tag">Threaded</span>
+                    </div>
+                    <a href="#" class="category-link">View Couplings →</a>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-image">
+                    <span class="category-badge">IN STOCK</span>
+                    Product Image
+                </div>
+                <div class="category-content">
+                    <h3>Reducers</h3>
+                    <p>Concentric & Eccentric Reducers, Threaded Hex Bushings, and Swage Nipples.</p>
+                    <div class="category-tags">
+                        <span class="tag">Concentric</span>
+                        <span class="tag">Eccentric</span>
+                        <span class="tag">Hex Bushings</span>
+                    </div>
+                    <a href="#" class="category-link">View Reducers →</a>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-image">
+                    <span class="category-badge">IN STOCK</span>
+                    Product Image
+                </div>
+                <div class="category-content">
+                    <h3>Valves</h3>
+                    <p>Industrial Ball, Gate, Globe, Check, and Butterfly Valves for fluid isolation & throttling.</p>
+                    <div class="category-tags">
+                        <span class="tag">Ball Valves</span>
+                        <span class="tag">Gate Valves</span>
+                        <span class="tag">Check Valves</span>
+                    </div>
+                    <a href="#" class="category-link">View Valves →</a>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-image">
+                    <span class="category-badge">IN STOCK</span>
+                    Product Image
+                </div>
+                <div class="category-content">
+                    <h3>Flanges</h3>
+                    <p>Weld Neck, Slip-On, Blind, Socket Weld, and Threaded ANSI 150, 300, and 600 flanges.</p>
+                    <div class="category-tags">
+                        <span class="tag">Weld Neck</span>
+                        <span class="tag">ANSI 300</span>
+                        <span class="tag">Threaded</span>
+                    </div>
+                    <a href="#" class="category-link">View Flanges →</a>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-image">
+                    <span class="category-badge">IN STOCK</span>
+                    Product Image
+                </div>
+                <div class="category-content">
+                    <h3>Other Fittings</h3>
+                    <p>Ground Joint Unions, Square Plugs, End Caps, Close Nipples, Weldolets, and Threadolets.</p>
+                    <div class="category-tags">
+                        <span class="tag">Unions</span>
+                        <span class="tag">Plugs & Caps</span>
+                        <span class="tag">Weldolets</span>
+                    </div>
+                    <a href="#" class="category-link">View Other →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FORM SECTION ===== -->
+    <section class="form-section">
+        <div class="form-container">
+            <div class="form-left">
+                <p class="section-label">GET IN TOUCH</p>
+                <h2>Tell Us What You Need</h2>
+                <p>Looking for specific pipes or fittings? Send us your requirements and our team will get back to you with the available options, certification paperwork, and quantity pricing.</p>
+
+                <div class="guarantees">
+                    <div class="guarantee-item">
+                        <div class="guarantee-icon">✓</div>
+                        <div class="guarantee-text">
+                            <h4>Expert Review</h4>
+                            <p>Our team reviews your specs within 24 hours.</p>
+                        </div>
+                    </div>
+                    <div class="guarantee-item">
+                        <div class="guarantee-icon">✓</div>
+                        <div class="guarantee-text">
+                            <h4>Certified Documentation</h4>
+                            <p>All products include full mill test certs and traceability.</p>
+                        </div>
+                    </div>
+                    <div class="guarantee-item">
+                        <div class="guarantee-icon">✓</div>
+                        <div class="guarantee-text">
+                            <h4>No Surprises</h4>
+                            <p>Transparent pricing and delivery estimates before order.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="direct-inquiry">
+                    <p><strong>Need immediate assistance?</strong></p>
+                    <div class="inquiry-contacts">
+                        <div class="inquiry-contact">
+                            <span>📞</span> <strong>+1 (555) 0123</strong>
+                        </div>
+                        <div class="inquiry-contact">
+                            <span>✉️</span> <strong>inquiry@pipes.com</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-right">
+                <form id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" placeholder="e.g. David Miller" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="e.g. d.miller@buildcorps.com" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number <span class="required">*</span></label>
+                        <input type="tel" id="phone" name="phone" placeholder="e.g. +1 555-0192" required>
+                    </div>
+
+                    <div class="submit-row">
+                        <button type="submit" class="btn-submit">Submit Request →</button>
+                        <div class="form-message" id="formMessage"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ADVANCE PAYMENT SECTION ===== -->
+    <section class="advance-payment-section">
+        <div class="advance-payment-container">
+            <p class="section-label" style="text-align: center; color: #2563eb;">SIMPLE & TRANSPARENT</p>
+            <h2>How to Order: 4 Simple Steps</h2>
+            <p class="section-subtitle">From quote to delivery, we've made the process straightforward and efficient.</p>
+
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Confirm Your Order</h3>
+                    <p>Review the selected products, custom pipe cut lengths, quantities, pricing, and jobsite delivery details.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Make Advance Payment</h3>
+                    <p>Complete the required advance payment through corporate ACH, wire, or secure online checkout methods.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Order Processing Begins</h3>
+                    <p>Once payment is confirmed, we allocate stock from our yard, fabricate cuts, and run quality checks.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Dispatch & Delivery</h3>
+                    <p>Your order is bundled, certified, and dispatched according to your agreed jobsite schedule.</p>
+                </div>
+            </div>
+
+            <div class="payment-cta-card">
+                <div class="payment-cta-text">
+                    <h3>Ready to Request Your Free Audit?</h3>
+                    <p>Get a comprehensive review of your project needs with no obligation. Our experts will provide sizing recommendations, spec sheets, and pricing options tailored to your timeline.</p>
+                </div>
+                <a href="https://payments.cashfree.com/forms/getaudit" target="_blank" class="btn-payment">Free Audit for Advance Payment →</a>
+            </div>
+
+            <p style="text-align: center; margin-top: 40px; font-size: 14px; color: #ddd;">All transactions are secured with enterprise-grade encryption and compliance standards.</p>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS SECTION ===== -->
+    <section class="testimonials-section">
+        <div class="section-header">
+            <p class="section-label">CUSTOMER FEEDBACK</p>
+            <h2 class="section-title">What Our Clients Say</h2>
+            <p class="section-subtitle">Real stories from real projects powered by our quality products and service.</p>
+        </div>
+
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <h4>"Good quality and smooth ordering experience."</h4>
+                <p>The products were exactly what we needed for our plant retrofit project, and the ordering process was straightforward without any hold-up on mill certificates.</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">JM</div>
+                    <div class="author-info">
+                        <h5>John Martinez</h5>
+                        <p>Project Manager, BuildCorp</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <h4>"Helpful service from enquiry to delivery."</h4>
+                <p>The team understood our dual-unit schedule requirement and helped us choose the right ANSI 300 flanges for our pressurized steam loop without delays.</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">RS</div>
+                    <div class="author-info">
+                        <h5>Rachel Singh</h5>
+                        <p>Facilities Director, TechWorks Inc</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <h4>"Reliable products and professional support."</h4>
+                <p>We received the required pipes and socket-weld fittings right as expected. The advance billing was transparent and freight dispatch was right on time.</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">MC</div>
+                    <div class="author-info">
+                        <h5>Mike Chen</h5>
+                        <p>Operations Lead, ConstructionPro</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FAQ SECTION ===== -->
+    <section class="faq-section">
+        <div class="faq-container">
+            <div class="section-header">
+                <p class="section-label">COMMON QUESTIONS</p>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Everything you need to know about our products and ordering process.</p>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What materials do your pipes and fittings come in?</span>
+                        <span class="faq-toggle">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        We offer a comprehensive range including seamless carbon steel, stainless steel 316, heavy schedule PVC, galvanized structural steel, and specialized alloys for chemical and high-pressure applications. All materials meet ASTM, ANSI, and ISO standards.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you provide custom cuts and fabrication?</span>
+                        <span class="faq-toggle">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        Yes, we specialize in custom cutting and dimensional fabrication. Simply provide your exact specifications during the order process, and our team will handle all cutting, threading, and finishing. Mill test certificates are included for all custom work.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What's your typical lead time for orders?</span>
+                        <span class="faq-toggle">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        Standard inventory items ship within 5-7 business days of payment confirmation. Custom fabrication typically takes 2-3 weeks depending on complexity. Rush orders are available with expedited fees.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do all products include certification paperwork?</span>
+                        <span class="faq-toggle">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        Absolutely. Every product ships with mill test certificates, material certifications, and full traceability documentation. This is essential for commercial, industrial, and regulated applications.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What payment methods do you accept?</span>
+                        <span class="faq-toggle">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        We accept corporate ACH transfers, wire transfers, credit/debit cards, and secure online payment gateways. A 50% advance deposit is required to begin order processing, with final payment due upon shipment.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can you ship internationally?</span>
+                        <span class="faq-toggle">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        Yes, we handle international shipments. Contact our team directly for quotes on international orders, as pricing varies based on destination, volume, and product type. All exports comply with local regulations and include appropriate documentation.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What warranty or guarantees do you offer?</span>
+                        <span class="faq-toggle">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        All products are guaranteed to meet the specifications and standards provided at time of order. We stand behind the quality of every item. If there are any defects or discrepancies, we offer full replacement or refund within 30 days of delivery.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How can I get a quote for my project?</span>
+                        <span class="faq-toggle">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        Fill out the contact form on this page with your project requirements, or call our team directly at +1 (555) 0123. We'll review your needs and provide a detailed quote within 24 hours, including pricing, lead times, and any custom fabrication options.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FINAL CTA SECTION ===== -->
+    <section class="final-cta-section">
+        <div class="final-cta-container">
+            <p style="font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 16px;">🚀 READY TO GET STARTED?</p>
+            <h2>Transform Your Piping Procurement Today</h2>
+            <p>Stop struggling with fragmented suppliers and unclear timelines. Get industrial-grade pipes and fittings delivered to spec, on time, every time.</p>
+            <div class="final-cta-buttons">
+                <button class="btn-white">Browse Our Catalog →</button>
+                <button class="btn-white">Request a Quote →</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // ===== FORM SUBMISSION =====
+        // UPDATE THIS URL with your new deployed AppScript URL
+        const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyHeaidN0YGgCctm2VIZmPdXxFc5qa01eAigQTvw4ZdW17PoETxmFPJATR_apV9MfnbkA/exec';
+
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const phone = document.getElementById('phone').value.trim();
+            const submitBtn = document.querySelector('.btn-submit');
+
+            // Validate
+            if (!name || !email || !phone) {
+                showError('Please fill in all required fields');
+                return;
+            }
+
+            if (!email.includes('@')) {
+                showError('Please enter a valid email address');
+                return;
+            }
+
+            // Disable button
+            submitBtn.disabled = true;
+            const originalText = submitBtn.textContent;
+            submitBtn.textContent = 'Submitting...';
+
+            // Build URL with encoded parameters
+            const params = new URLSearchParams();
+            params.append('name', name);
+            params.append('email', email);
+            params.append('phone', phone);
+
+            const url = SCRIPT_URL + '?' + params.toString();
+
+            console.log('Sending to:', url);
+
+            // Send request with no-cors mode
+            fetch(url, {
+                method: 'GET',
+                mode: 'no-cors'
+            })
+            .then(response => {
+                // With no-cors, we can't read the response, but if we got here the request went through
+                console.log('Request sent successfully (opaque response with no-cors)');
+                showSuccess();
+                document.getElementById('contactForm').reset();
+                submitBtn.disabled = false;
+                submitBtn.textContent = originalText;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                showError('Connection error. Please check the AppScript URL and make sure it\'s deployed correctly.');
+                submitBtn.disabled = false;
+                submitBtn.textContent = originalText;
+            });
+        });
+
+        function showSuccess() {
+            const formMessage = document.getElementById('formMessage');
+            formMessage.textContent = '✓ Your request has been submitted successfully!';
+            formMessage.className = 'form-message success';
+            console.log('Form submitted and saved to Google Sheet');
+            setTimeout(() => {
+                formMessage.className = 'form-message';
+            }, 5000);
+        }
+
+        function showError(message) {
+            const formMessage = document.getElementById('formMessage');
+            formMessage.textContent = '✗ ' + message;
+            formMessage.className = 'form-message error';
+            console.error('Form error:', message);
+        }
+
+        // ===== FAQ ACCORDION =====
+        const faqQuestions = document.querySelectorAll('.faq-question');
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', function() {
+                const faqItem = this.closest('.faq-item');
+                faqItem.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
